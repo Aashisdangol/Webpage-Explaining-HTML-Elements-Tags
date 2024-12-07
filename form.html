@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <!-- In this page i will be talking about form tag and elements -->
+    <form action="" method="">
+        <!-- HTML form elements -->
+         <!--These are input elements-->
+         <!--1:Text type-->
+         <p>
+            <label for="name" >Name</label>
+            <input id="name" type="Text" placeholder="Enter your name" required/>   
+         </p>
+         <hr>
+         <!-- Number type  -->
+         <p>
+            <label for="number">Phone Number</label>
+            <input id="number" type="number" min="4" max="5" required/>   
+            <!-- Form validation -->
+        </p>
+        <hr>
+        <!-- email type  -->
+         <p>
+            <label for="email">Enter Email</label>
+            <input id="enail" type="email" />   
+        </p>
+        <!-- Password type  -->
+         <p>
+            <label for="password">Enter Password</label>
+            <input id="password" type="password"/>   
+        </p>
+        <hr>
+        <!--Date Type-->
+         <p>
+            <label for="date">Enter date</label>
+            <input id="date" type="date"/>   
+        </p>
+        <hr>
+        <!--time type-->
+         <p>
+            <label for="time">Lunch time</label>
+            <input id="time" type="time"/>   
+        </p>
+        <hr>
+        <!--Mpnth typ[e]-->
+         <p>
+            <label for="month">Enter Month</label>
+            <input id="month" type="month"/>   
+        </p>
+        <hr>
+        <!--week typ[e]-->
+         <p>
+            <label for="week">Enter Week</label>
+            <input id="week" type="week"/>   
+        </p>
+        <hr>
+        <!--Url tpye-->
+         <p>
+            <label for="url">Linked profile</label>
+            <input id="url" type="url"/>   
+        </p>
+        <hr>
+        <!--color-->
+         <p>
+            <label for="color">Favourite color</label>
+            <input id="color" type="color"/>   
+        </p>
+        <hr>
+
+        <!--File-->
+         <p>
+            <label for="file">Upload Resume</label>
+            <input id="file" type="file"/>   
+        </p>
+        <hr>
+        <!--images-->
+         <p>
+            <label for="images">Upload image</label>
+            <input id="images" type="file" multiple accept=".pdf, .docx"/>   
+        </p>
+        <!--images just everything just for png and jpg enter attribute <accept="image/png or jpg"-->
+            <p>
+                <label for="file">Upload image</label>
+                <input id="file" type="file" multiple accept="image/png"/>   
+            </p>
+        <hr>
+            <!--text area tag-->
+            <p>
+                <label for="about">Enter your feedback</label>
+                <!-- <input id="about" type="textarea"/>    -->
+                <textarea id="about" rows="8" cols="20"></textarea>
+            </p>
+            <!--Radio Buttom-->
+             <p>
+                <label for="male">male</label>
+                <input id="male" type="radio" name="gender"/>   
+            </p>
+             <p>
+                <label for="gender">female</label>
+                <input id="female" type="radio" name="gender"/>   
+            </p>
+            <hr>
+            <!--CHeckbox type-->
+             <p>
+                <label for="answer1">Answer1</label>
+                <input id="answer1" type="checkbox" name="answer"/>   
+            </p>
+             <p>
+                <label for="answer2">Answer2</label>
+                <input id="answer2" type="checkbox" name="answer"/>   
+            </p>
+             <p>
+                <label for="answer3">Answer3</label>
+                <input id="answer3" type="checkbox" name="answer"/>   
+            </p>
+             <p>
+                <label for="answer4">Answer4</label>
+                <input id="answer4" type="checkbox" name="answer"/>   
+            </p>
+            <hr>
+            <!--drop down/select box-->
+            
+            <select name="Language">
+                <option value="">--Please Select you Fav programming language--</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="java">Java</option>
+                <option value="react">react</option>
+                <option value="node">node</option>
+            </select><br><br>
+            <!--Multiple select dropbox-->
+            <select name="Language" multiple>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="java">Java</option>
+                <option value="react">react</option>
+                <option value="node">node</option>
+            </select><br><br>
+            <!--Option Group-->
+            <select name="Language" multiple>
+                <option value="">--Please Select you Fav programming language--</option>
+                <optgroup label="Frontend">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="java">Java</option>
+                <option value="react">react</option>
+                <option value="node">node</option>
+
+                </optgroup>
+                <optgroup label="backend">
+                <option value="ruby">ruby</option>
+                </optgroup>
+
+            </select><br>
+            <br>
+
+            <!--submit buttom-->
+            <!-- <input type="buttom"> -->
+             <button type="submit">Save date</button>
+            
+
+            
+            
+        </form>
+        <!-- <buttom>Click me</buttom> -->
+        
+    
+</body>
+</html>
